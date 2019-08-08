@@ -1,28 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[不可能？可能！]]></title>
-    <url>%2F2019%2F08%2F05%2F%E4%B8%8D%E5%8F%AF%E8%83%BD%EF%BC%9F%E5%8F%AF%E8%83%BD%EF%BC%81%2F</url>
-    <content type="text"><![CDATA[题目描述：很久很久以前，有一个数论大佬$Violet956$说：“菜鸟们，我来考你们一个问题，如果你们答对了，你们就是跟我一样的大佬了。” 菜鸟们都跃跃欲试，结果都无一例外败给了数论大佬$Violet956$。（上面都是废话） 现在，我有一个点。我把这个点向 $[0,1]$ 这个区间抛。这个点落在有理数上的概率为_____。 A. 100% B. 50% C. 0% Common的想法： 因为$[0,1]$ 这个区间上肯定既有有理数又有无理数， $A.100%$ 和 $D.0%$ 选项一定是错误的，所以答案一定选 $B.50%$ 。 因为$[0,1]$ 这个区间上有$\infty$个有理数和$\infty$个无理数，所以点投在有理数上的概率为 $P_Y$ = $\frac{\infty}{\infty+\infty}$ ，所以答案为 $B.50%$ 。 B选项好看 上面的想法好像都有各自的道理，可是正确答案并非如此。 Right的解法：将问题换一下，要求出抛到有理数的概率，就可以先求出抛到无理数的概率 $P_W$ ，再用 $P_Y$ = 1 - $P_W$ 就可以求出答案了。 所以现在我们又面临一个问题：如何求出 $P_W$ 呢？ Before This 先引入一个东西：$Violet956$大佬，这个矩形的体积是多少？ $Violet956$大佬，这个线的面积是多少？ $Violet956$大佬，这个点的长度是多少？ 只见$Violet956$大佬白眼一翻。“你这不是为难我吗？”$Violet956$大佬说道。 所以我们可以的出结论，平面无体积、直线无面积、点无长度。 知道这个就足够解决这个问题了。 证明过程这个问题可以转化为求无理数占 $[0，1]$ 这个区间的百分比， 我们来观察一下这个数轴， $[0，1]$中间有$\infty$个无理数， $[0，\frac{1}{2}]$中间有$\infty$个无理数， $[0，\frac{1}{4}]$中间有$\infty$个无理数， $[0，\frac{1}{8}]$中间有$\infty$个无理数， ······ 由此可见，当分母足够小时，仍然有$\infty$个无理数夹在中间，每个无理数都可以看作一个点， 初中老师讲过，当$\infty$个点线性排列在一起时，就变成了一条线， 设0与第二个有理数之间的距离为$l_1$，第二个有理数与第三个有理数之间的距离为$l_2$······以此类推，可以得到$sum_l$=$l_1$+$l_2$+$l_3$+···+$l_n$ 又因为，有理数都是点，被$\infty$个无理数分开，所以有理数没有长度，（刚刚说过了点没有长度） 所以$sum_l$=1，不是趋近于，就是等于 可以得到，无理数的长度为1，所以$P_W$=$\frac{sum_l}{1}$=100%,即$P_Y$=1-100%=0% 答案选C，是不是很颠覆三观？ 有人就要说了，如果我就是运气好就丢中了$\frac{1}{2}$这个点呢？ 这就是数学上看似绝对不可能，但是仍有可能的事件。]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>不可能？可能！</title>
+      <link href="/2019/08/05/%E4%B8%8D%E5%8F%AF%E8%83%BD%EF%BC%9F%E5%8F%AF%E8%83%BD%EF%BC%81/"/>
+      <url>/2019/08/05/%E4%B8%8D%E5%8F%AF%E8%83%BD%EF%BC%9F%E5%8F%AF%E8%83%BD%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<h2 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h2><p>很久很久以前，有一个数论大佬$Violet956$说：“菜鸟们，我来考你们一个问题，如果你们答对了，你们就是跟我一样的大佬了。”</p><p>菜鸟们都跃跃欲试，结果都无一例外败给了数论大佬$Violet956$。（<del>上面都是废话</del>）</p><p>现在，我有一个点。我把这个点向 $[0,1]$ 这个区间抛。这个点落在有理数上的概率为_____。</p><div class="table-container"><table><thead><tr><th style="text-align:center">A. 100%</th><th style="text-align:center">B. 50%</th><th style="text-align:center">C. 0%</th></tr></thead><tbody><tr><td style="text-align:center"></td></tr></tbody></table></div><h2 id="Common的想法："><a href="#Common的想法：" class="headerlink" title="Common的想法："></a>Common的想法：</h2><ol><li><p>因为$[0,1]$ 这个区间上肯定既有有理数又有无理数， A.100% 和 D.0% 选项一定是错误的，所以答案一定选 B.50% 。</p></li><li><p>因为$[0,1]$ 这个区间上有$\infty$个有理数和$\infty$个无理数，所以点投在有理数上的概率为 $P_Y$ = $\frac{\infty}{\infty+\infty}$ ，所以答案为 B.50% 。</p></li><li><p><del>B选项好看</del></p></li></ol><p>上面的想法好像都有各自的道理，可是正确答案并非如此。</p><h2 id="Right的解法："><a href="#Right的解法：" class="headerlink" title="Right的解法："></a>Right的解法：</h2><p>将问题换一下，要求出抛到有理数的概率，就可以先求出抛到无理数的概率 $P_W$ ，再用 $P_Y$ = 1 - $P_W$ 就可以求出答案了。</p><p>所以现在我们又面临一个问题：如何求出 $P_W$ 呢？</p><h3 id="Before-This-先引入一个东西："><a href="#Before-This-先引入一个东西：" class="headerlink" title="Before This 先引入一个东西："></a>Before This 先引入一个东西：</h3><p>$Violet956$大佬，这个<strong>矩形的体积</strong>是多少？</p><p>$Violet956$大佬，这个<strong>线的面积</strong>是多少？</p><p>$Violet956$大佬，这个<strong>点的长度</strong>是多少？</p><p>只见$Violet956$大佬白眼一翻。“你这不是为难我吗？”$Violet956$大佬说道。</p><p>所以我们可以的出结论，<strong>平面无体积、直线无面积、点无长度</strong>。</p><p>知道这个就足够解决这个问题了。</p><h3 id="证明过程"><a href="#证明过程" class="headerlink" title="证明过程"></a>证明过程</h3><p>这个问题可以转化为求<strong>无理数</strong>占 $[0，1]$ 这个区间的百分比，</p><p>我们来观察一下这个数轴，</p><p>$[0，1]$中间有$\infty$个无理数，</p><p>$[0，\frac{1}{2}]$中间有$\infty$个无理数，</p><p>$[0，\frac{1}{4}]$中间有$\infty$个无理数，</p><p>$[0，\frac{1}{8}]$中间有$\infty$个无理数，</p><p>······</p><p>由此可见，当分母足够小时，仍然有$\infty$个无理数夹在中间，每个无理数都可以看作一个点，</p><p>初中老师讲过，当$\infty$个点线性排列在一起时，就变成了一条线，</p><p>设0与第二个有理数之间的距离为$l_1$，第二个有理数与第三个有理数之间的距离为$l_2$······以此类推，可以得到$sum_l$=$l_1$+$l_2$+$l_3$+···+$l_n$</p><p>又因为，有理数都是点，被$\infty$个无理数分开，所以有理数没有长度，（刚刚说过了<strong>点没有长度</strong>）</p><p>所以$sum_l$=1，不是趋近于，就是等于</p><p>可以得到，无理数的长度为1，所以$P_W$=$\frac{sum_l}{1}$=100%,即$P_Y$=1-100%=0%</p><p>答案选C，是不是很颠覆三观？</p><p>有人就要说了，如果我就是运气好就丢中了$\frac{1}{2}$这个点呢？</p><p>这就是数学上看似绝对不可能，但是仍有可能的事件中最典型的例子。</p>]]></content>
+      
+      
       <categories>
-        <category>数学</category>
+          
+          <category> 数学 </category>
+          
       </categories>
-      <tags>
-        <tag>数论</tag>
-        <tag>概率</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[洛谷P1035 级数求和]]></title>
-    <url>%2F2019%2F08%2F01%2F%E6%B4%9B%E8%B0%B7P1035-%E7%BA%A7%E6%95%B0%E6%B1%82%E5%92%8C%2F</url>
-    <content type="text"><![CDATA[这么简单的题，我居然写博客？疯狂抽自己 题目大意给你一个数$k$，$sum_n$=1+$\frac{1}{2}$+$\frac{1}{3}$+$\frac{1}{4}$+….+$\frac{1}{n}$ 现在让你求出最小的$n$使得$sum_n$&gt;$k$ 不就是调和数列嘛，直接用$sum_n \leftarrow \ln n + \gamma$ (错误的想法，推导过程自行百度) ps:$\gamma$为欧拉常数$\approx$0.57721 56649 01532 86060 65120 90082 40243 10421 59335 代码:1234567891011#include&lt;cmath&gt;#include&lt;cstdio&gt;using namespace std;const double Ola=0.5772156649015328606065120;double k,n,z;int main()&#123; scanf("%lf",&amp;k); for(double i=1,sum;!z;sum=log(double(i))+Ola,sum&gt;k?(printf("%.0lf\n",i),z=1):0,++i); return 0;&#125; 这个公式只有当且仅当$n \rightarrow +\infty$成立 可是题目条件是$1 \leq k \leq 15$ 显然误差贼大，上面那个代码只能得60 所以只好老老实实的写暴力求和 AC代码:123456789101112#include&lt;cmath&gt;#include&lt;cstdio&gt;using namespace std;int main()&#123; double he=0.0,k=0,n=1; scanf("%lf",&amp;k); while(he&lt;k) he+=(1.000000/n),n++; printf("%.0lf\n",n-1); return 0;&#125;]]></content>
+      
+      
+        <tags>
+            
+            <tag> 数论 </tag>
+            
+            <tag> 概率 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>洛谷P1035 级数求和</title>
+      <link href="/2019/08/01/%E6%B4%9B%E8%B0%B7P1035-%E7%BA%A7%E6%95%B0%E6%B1%82%E5%92%8C/"/>
+      <url>/2019/08/01/%E6%B4%9B%E8%B0%B7P1035-%E7%BA%A7%E6%95%B0%E6%B1%82%E5%92%8C/</url>
+      
+        <content type="html"><![CDATA[<h4 id="这么简单的题，我居然写博客？"><a href="#这么简单的题，我居然写博客？" class="headerlink" title="这么简单的题，我居然写博客？"></a>这么简单的题，我居然写博客？</h4><p><del>疯狂抽自己</del></p><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给你一个数$k$，$sum_n$=1+$\frac{1}{2}$+$\frac{1}{3}$+$\frac{1}{4}$+….+$\frac{1}{n}$</p><p>现在让你求出最小的$n$使得$sum_n$&gt;$k$</p><p>不就是调和数列嘛，直接用$sum_n \leftarrow \ln n + \gamma$ (错误的想法，推导过程自行百度)</p><p>ps:$\gamma$为欧拉常数$\approx$0.57721 56649 01532 86060 65120 90082 40243 10421 59335</p><p>代码:<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">double</span> Ola=<span class="number">0.5772156649015328606065120</span>;</span><br><span class="line"><span class="keyword">double</span> k,n,z;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="built_in">scanf</span>(<span class="string">"%lf"</span>,&amp;k);</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">double</span> i=<span class="number">1</span>,sum;!z;sum=<span class="built_in">log</span>(<span class="keyword">double</span>(i))+Ola,sum&gt;k?(<span class="built_in">printf</span>(<span class="string">"%.0lf\n"</span>,i),z=<span class="number">1</span>):<span class="number">0</span>,++i);</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>这个公式只有当且仅当$n \rightarrow +\infty$成立</p><p>可是题目条件是$1 \leq k \leq 15$</p><p>显然误差贼大，上面那个代码只能得60</p><p>所以只好老老实实的写暴力求和</p><p>AC代码:<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="keyword">double</span> he=<span class="number">0.0</span>,k=<span class="number">0</span>,n=<span class="number">1</span>;</span><br><span class="line"><span class="built_in">scanf</span>(<span class="string">"%lf"</span>,&amp;k); </span><br><span class="line"><span class="keyword">while</span>(he&lt;k)</span><br><span class="line">he+=(<span class="number">1.000000</span>/n),n++;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%.0lf\n"</span>,n<span class="number">-1</span>); </span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
       <categories>
-        <category>C++</category>
+          
+          <category> C++ </category>
+          
       </categories>
-      <tags>
-        <tag>洛谷</tag>
-        <tag>暴力</tag>
-        <tag>欧拉常数</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 洛谷 </tag>
+            
+            <tag> 暴力 </tag>
+            
+            <tag> 欧拉常数 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
