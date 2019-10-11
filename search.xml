@@ -12,17 +12,4 @@
         <tag>概率</tag>
       </tags>
   </entry>
-  <entry>
-    <title><![CDATA[洛谷P1035 级数求和]]></title>
-    <url>%2F2019%2F08%2F01%2F%E6%B4%9B%E8%B0%B7P1035-%E7%BA%A7%E6%95%B0%E6%B1%82%E5%92%8C%2F</url>
-    <content type="text"><![CDATA[这么简单的题，我居然写博客？疯狂抽自己 题目大意给你一个数$k$，$sum_n$=1+$\frac{1}{2}$+$\frac{1}{3}$+$\frac{1}{4}$+….+$\frac{1}{n}$ 现在让你求出最小的$n$使得$sum_n$&gt;$k$ 不就是调和数列嘛，直接用$sum_n \leftarrow \ln n + \gamma$ (错误的想法，推导过程自行百度) ps:$\gamma$为欧拉常数$\approx$0.57721 56649 01532 86060 65120 90082 40243 10421 59335 代码:1234567891011#include&lt;cmath&gt;#include&lt;cstdio&gt;using namespace std;const double Ola=0.5772156649015328606065120;double k,n,z;int main()&#123; scanf("%lf",&amp;k); for(double i=1,sum;!z;sum=log(double(i))+Ola,sum&gt;k?(printf("%.0lf\n",i),z=1):0,++i); return 0;&#125; 这个公式只有当且仅当$n \rightarrow +\infty$成立 可是题目条件是$1 \leq k \leq 15$ 显然误差贼大，上面那个代码只能得60 所以只好老老实实的写暴力求和 AC代码:123456789101112#include&lt;cmath&gt;#include&lt;cstdio&gt;using namespace std;int main()&#123; double he=0.0,k=0,n=1; scanf("%lf",&amp;k); while(he&lt;k) he+=(1.000000/n),n++; printf("%.0lf\n",n-1); return 0;&#125;]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>洛谷</tag>
-        <tag>暴力</tag>
-        <tag>欧拉常数</tag>
-      </tags>
-  </entry>
 </search>
