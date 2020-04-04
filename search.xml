@@ -1,3 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
+  <entry>
+    <title><![CDATA[编程环境快速搭建]]></title>
+    <url>%2F2020%2F04%2F04%2F%E7%BC%96%E7%A8%8B%E7%8E%AF%E5%A2%83%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%2F</url>
+    <content type="text"><![CDATA[最后一次更新：2020年3月30日 1. c&amp;c++1.1 基础开发1.1.1 Dev-Cpp Dev-Cpp_5.5.3 Dev-Cpp 5.6.2 Dev-Cpp.5.10 Dev-Cpp_5.11 1.1.2 Codeblocks codeblocks-20.03 1.2 进阶开发1.2.1 Qt qt-opensource-windows-x86-5.14.1 2. python2.1 X64 python-3.8.2-amd64 2.2 X32 python-3.8.2 3. 文本编辑3.1 Sublime Text Sublime Text Build 3211 x64 3.2 VS Code（推荐）3.2.1 X64 VSCodeUserSetup-x64-1.43.2 3.2.2 X32 VSCodeUserSetup-ia32-1.43.2 4. Visual Studio 2019 Visual Studio 2019 professional 5. 其他工具5.1 Git5.1.1 X64 Git-2.26.0-64 5.1.2 X32 Git-2.26.0-32]]></content>
+      <categories>
+        <category>编程</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>C++</tag>
+        <tag>Python</tag>
+        <tag>Git</tag>
+      </tags>
+  </entry>
 </search>
