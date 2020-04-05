@@ -1,38 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>编程环境快速搭建</title>
-      <link href="/2020/04/04/%E7%BC%96%E7%A8%8B%E7%8E%AF%E5%A2%83%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA/"/>
-      <url>/2020/04/04/%E7%BC%96%E7%A8%8B%E7%8E%AF%E5%A2%83%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA/</url>
-      
-        <content type="html"><![CDATA[<p>最后一次更新：2020年3月30日</p><h1 id="1-c-amp-c"><a href="#1-c-amp-c" class="headerlink" title="1. c&amp;c++"></a>1. c&amp;c++</h1><h2 id="1-1-基础开发"><a href="#1-1-基础开发" class="headerlink" title="1.1 基础开发"></a>1.1 基础开发</h2><h3 id="1-1-1-Dev-Cpp"><a href="#1-1-1-Dev-Cpp" class="headerlink" title="1.1.1 Dev-Cpp"></a>1.1.1 Dev-Cpp</h3><ul><li><p><a href="http://dl.zhzxoj.org/program/c%26c%2B%2B/Dev-Cpp_5.5.3_MinGW_4.7.2_Setup.exe" target="_blank" rel="noopener">Dev-Cpp_5.5.3</a></p></li><li><p><a href="http://dl.zhzxoj.org/program/c%26c%2B%2B/Dev-Cpp%205.6.2%20MinGW%204.8.1%20Setup.exe" target="_blank" rel="noopener">Dev-Cpp 5.6.2</a></p></li><li><p><a href="http://dl.zhzxoj.org/program/c%26c%2B%2B/Dev-Cpp.5.10.TDM-GCC.4.8.1.Setup.exe" target="_blank" rel="noopener">Dev-Cpp.5.10</a></p></li><li><p><a href="http://dl.zhzxoj.org/program/c%26c%2B%2B/Dev-Cpp_5.11_TDM-GCC_4.9.2_Setup.exe" target="_blank" rel="noopener">Dev-Cpp_5.11</a></p></li></ul><h3 id="1-1-2-Codeblocks"><a href="#1-1-2-Codeblocks" class="headerlink" title="1.1.2 Codeblocks"></a>1.1.2 Codeblocks</h3><ul><li><a href="http://dl.zhzxoj.org/program/c%26c%2B%2B/codeblocks-20.03-setup.exe" target="_blank" rel="noopener">codeblocks-20.03</a></li></ul><h2 id="1-2-进阶开发"><a href="#1-2-进阶开发" class="headerlink" title="1.2 进阶开发"></a>1.2 进阶开发</h2><h3 id="1-2-1-Qt"><a href="#1-2-1-Qt" class="headerlink" title="1.2.1 Qt"></a>1.2.1 Qt</h3><ul><li><a href="http://dl.zhzxoj.org/program/c%26c%2B%2B/qt-opensource-windows-x86-5.14.1.exe" target="_blank" rel="noopener">qt-opensource-windows-x86-5.14.1</a></li></ul><hr><h1 id="2-python"><a href="#2-python" class="headerlink" title="2. python"></a>2. python</h1><h2 id="2-1-X64"><a href="#2-1-X64" class="headerlink" title="2.1 X64"></a>2.1 X64</h2><ul><li><a href="http://dl.zhzxoj.org/program/python/python-3.8.2-amd64.exe" target="_blank" rel="noopener">python-3.8.2-amd64</a></li></ul><h2 id="2-2-X32"><a href="#2-2-X32" class="headerlink" title="2.2 X32"></a>2.2 X32</h2><ul><li><a href="http://dl.zhzxoj.org/program/python/python-3.8.2.exe" target="_blank" rel="noopener">python-3.8.2</a></li></ul><hr><h1 id="3-文本编辑"><a href="#3-文本编辑" class="headerlink" title="3. 文本编辑"></a>3. 文本编辑</h1><h2 id="3-1-Sublime-Text"><a href="#3-1-Sublime-Text" class="headerlink" title="3.1 Sublime Text"></a>3.1 Sublime Text</h2><ul><li><a href="http://dl.zhzxoj.org/program/text/Sublime%20Text%20Build%203211%20x64%20Setup.exe" target="_blank" rel="noopener">Sublime Text Build 3211 x64</a></li></ul><h2 id="3-2-VS-Code（推荐）"><a href="#3-2-VS-Code（推荐）" class="headerlink" title="3.2 VS Code（推荐）"></a>3.2 VS Code（推荐）</h2><h3 id="3-2-1-X64"><a href="#3-2-1-X64" class="headerlink" title="3.2.1 X64"></a>3.2.1 X64</h3><ul><li><a href="http://dl.zhzxoj.org/program/text/VSCodeUserSetup-x64-1.43.2.exe" target="_blank" rel="noopener">VSCodeUserSetup-x64-1.43.2</a></li></ul><h3 id="3-2-2-X32"><a href="#3-2-2-X32" class="headerlink" title="3.2.2 X32"></a>3.2.2 X32</h3><ul><li><a href="http://dl.zhzxoj.org/program/text/VSCodeUserSetup-ia32-1.43.2.exe" target="_blank" rel="noopener">VSCodeUserSetup-ia32-1.43.2</a></li></ul><hr><h1 id="4-Visual-Studio-2019"><a href="#4-Visual-Studio-2019" class="headerlink" title="4. Visual Studio 2019"></a>4. Visual Studio 2019</h1><ul><li><a href="http://dl.zhzxoj.org/program/text/vs_professional__758666206.1585035732.exe" target="_blank" rel="noopener">Visual Studio 2019 professional</a></li></ul><hr><h1 id="5-其他工具"><a href="#5-其他工具" class="headerlink" title="5. 其他工具"></a>5. 其他工具</h1><h2 id="5-1-Git"><a href="#5-1-Git" class="headerlink" title="5.1 Git"></a>5.1 Git</h2><h3 id="5-1-1-X64"><a href="#5-1-1-X64" class="headerlink" title="5.1.1 X64"></a>5.1.1 X64</h3><ul><li><a href="http://dl.zhzxoj.org/program/git/Git-2.26.0-64-bit.exe" target="_blank" rel="noopener">Git-2.26.0-64</a></li></ul><h3 id="5-1-2-X32"><a href="#5-1-2-X32" class="headerlink" title="5.1.2 X32"></a>5.1.2 X32</h3><ul><li><a href="http://dl.zhzxoj.org/program/git/Git-2.26.0-32-bit.exe" target="_blank" rel="noopener">Git-2.26.0-32</a></li></ul>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[编程环境快速搭建]]></title>
+    <url>%2F2020%2F04%2F04%2F%E7%BC%96%E7%A8%8B%E7%8E%AF%E5%A2%83%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%2F</url>
+    <content type="text"><![CDATA[最后一次更新：2020年3月30日 1. c&amp;c++1.1 基础开发1.1.1 Dev-Cpp Dev-Cpp_5.5.3 Dev-Cpp 5.6.2 Dev-Cpp.5.10 Dev-Cpp_5.11 1.1.2 Codeblocks codeblocks-20.03 1.2 进阶开发1.2.1 Qt qt-opensource-windows-x86-5.14.1 2. pythonX64 python-3.8.2-amd64 X32 python-3.8.2 3. 文本编辑Sublime Text Sublime Text Build 3211 x64 VS Code（推荐）X64 VSCodeUserSetup-x64-1.43.2 X32 VSCodeUserSetup-ia32-1.43.2 4. Visual Studio 2019 Visual Studio 2019 professional 5. 其他工具GitX64 Git-2.26.0-64 X32 Git-2.26.0-32]]></content>
       <categories>
-          
-          <category> 编程 </category>
-          
+        <category>编程</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> C </tag>
-            
-            <tag> C++ </tag>
-            
-            <tag> Python </tag>
-            
-            <tag> Git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>C</tag>
+        <tag>C++</tag>
+        <tag>Python</tag>
+        <tag>Git</tag>
+      </tags>
+  </entry>
 </search>
