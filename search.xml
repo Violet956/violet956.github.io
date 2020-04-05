@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[通信对抗基本概念]]></title>
+    <url>%2F2020%2F04%2F05%2F%E9%80%9A%E4%BF%A1%E5%AF%B9%E6%8A%97%E5%9F%BA%E6%9C%AC%E5%90%AB%E4%B9%89%E5%92%8C%E5%86%85%E5%AE%B9%2F</url>
+    <content type="text"><![CDATA[1.通信对抗通信对抗是为削弱、破坏敌方无线电通信系统的作战效能和保障己方无线电通信系统正常发挥使用效能所采取的技术措施和行动的总称。 通俗来说就是敌对双方在无线电领域内争夺无线电频谱的控制权而开展的电磁波斗争。 2.基本特点 开放式的发射 开放式的接收 3.涉及范围 军用无线电通信的所有波段 所有通信体制和通信方式 4.实施 技术措施 对技术装备的作战应用 技术装备是通信对抗的物质基础，合理的战术组织和应用可以充分的发挥技术装备的作用 5.广义含义通信对抗包括下面三个部分 通信对抗侦查 通信对抗侦查是使用通信侦查设备探测、搜索、截获敌方无线电通信信号，对信号进行测量、分析、识别、监视，并对敌方通信设备测向、定位，以获取信号频率、电平、调制方式等参数，以及电台位置、通信方式、通联特点、通信网结构和属性等情报。 通信对抗干扰 通信对抗干扰是使用无线电通信干扰设备发射专门的干扰信号，破坏或扰乱敌方的无线电通信，是通信对抗中的进攻手段。 通信对抗防御 通信对抗防御是采用反侦察与反干扰措施来保障己方无线电通信系统的正常工作。]]></content>
+      <categories>
+        <category>通信</category>
+      </categories>
+      <tags>
+        <tag>通信对抗</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[编程环境快速搭建]]></title>
     <url>%2F2020%2F04%2F04%2F%E7%BC%96%E7%A8%8B%E7%8E%AF%E5%A2%83%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%2F</url>
     <content type="text"><![CDATA[最后一次更新：2020年3月30日 1. c&amp;c++1.1 基础开发1.1.1 Dev-Cpp Dev-Cpp_5.5.3 Dev-Cpp 5.6.2 Dev-Cpp.5.10 Dev-Cpp_5.11 1.1.2 Codeblocks codeblocks-20.03 1.2 进阶开发1.2.1 Qt qt-opensource-windows-x86-5.14.1 2. pythonX64 python-3.8.2-amd64 X32 python-3.8.2 3. 文本编辑Sublime Text Sublime Text Build 3211 x64 VS Code（推荐）X64 VSCodeUserSetup-x64-1.43.2 X32 VSCodeUserSetup-ia32-1.43.2 4. Visual Studio 2019 Visual Studio 2019 professional 5. 其他工具GitX64 Git-2.26.0-64 X32 Git-2.26.0-32]]></content>
